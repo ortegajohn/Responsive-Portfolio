@@ -13,7 +13,9 @@ Top banner for (about.html), (portfolio.html) and (contact.html)
 START
 
 *****************/
-
+main{
+	grid-template-columns: 2fr 1fr;
+}
 header {
 	width: 100%;
 	height: auto;
@@ -442,7 +444,7 @@ input[type=text], select {
 		width: 96%;
 	}
 	.AB_me, .AA{
-		padding-right: 2%;
+		/* padding-right: 2%; */
 		width: 96%;
 	}
 
@@ -467,11 +469,7 @@ input[type=text], select {
 	}
 }
 
-.AB_me, .AA{
-	padding-right: 2%;
-	width: 96%;
 
-}
 
 @media screen and (max-width:  640px) {
 .topbanner{
@@ -494,5 +492,82 @@ input[type=text], select {
 
 }
 
+.AB_me, .AA{
+	padding-right: 2%;
+	width: 96%;
 
+}
 /*media *//*media *//*media *//*media */
+
+/* linkedin *//* stackoverflow *//* github *//* linkedin *//* stackoverflow *//* github */
+/* linkedin *//* stackoverflow *//* github *//* linkedin *//* stackoverflow *//* github */
+
+.pic_linkedin{
+	height: 60px;
+	width: 60px;
+}
+.pic_stackoverflow{
+	height: 60px;
+	width: 60px;
+}
+.pic_github{
+	height: 60px;
+	width: 60px;
+}
+
+.contact_links{
+	display: grid;
+	/* grid-template-columns: repeat(auto-fill, minmax(33.3%, 1fr)); */
+	grid-template-columns: 1fr 1fr 1fr;
+  /* grid-template-rows: auto; */
+	justify-content: center;  
+}
+
+.pic_linkedin , .pic_stackoverflow , .pic_github{
+
+	margin: 10% 30% 10% 30%;
+}
+
+.BBB{
+	border-bottom: 2px solid #dddddd; 
+}
+.BB1{
+	border-bottom: 2px solid #dddddd;
+	margin-inline-start: 1em;
+    margin-inline-end: 1em;
+}
+
+.mainheader1{
+	color: #4aaaa5  ;
+/* border: 2px solid orange; */
+	text-align: center;
+
+}
+
+.AB_me2{
+	display: inline-block;
+	/* width: 480px; */
+	width: 330px;
+	margin-top: 40px;
+	background-color: #ffffff;
+	/* border: 1px solid #dddddd; */
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	border-top: 2px solid #dddddd; 
+	border-right: 2px solid #dddddd; 
+	border-left: 2px solid #dddddd; 
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-bottom: 1em;
+
+
+}
+
+.AB_me2{
+	margin: 2% 35% 2% 35%;
+}
+/* .AB_me2{
+	background-color: black;
+} */
+/* linkedin *//* stackoverflow *//* github *//* linkedin *//* stackoverflow *//* github */
+/* linkedin *//* stackoverflow *//* github *//* linkedin *//* stackoverflow *//* github */
+
