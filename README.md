@@ -1,4 +1,3 @@
 # Responsive-Portfolio
-Homework 2 part 2
 
-This is the responsive version of my portfolio website
+This is the responsive version of my portfolio website. It has links to all the deployed versions of the projects and homeworks I have completed.
