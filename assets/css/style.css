@@ -154,7 +154,11 @@ END
 
 *****************/
 
-
+.proj_list_title{
+	margin-left: 2em;
+	color:#777777;
+	font-weight: bold;
+}
 
 /* ABOUT */
 main {
@@ -228,7 +232,7 @@ main {
     margin-block-start: 0em;
 }
 p{
-    margin-inline-start: 1em;
+  margin-inline-start: 1em;
 	margin-inline-end: 1em;
 	padding: 1em;
 	color:#777777;
